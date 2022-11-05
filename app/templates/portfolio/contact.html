@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<div id="contact" class="center contact htl">
+  <h1>You can contact me by sending me an email!</h1>
+</div>
+<div class="input-group mb-3 contact center">
+  <form class="contact-form cformat" method="post" action="{{ url_for('portfolio.mail') }}">
+    <input type="text" class="form-control" placeholder="Name" name="name" aria-describedby="basic-addon1" required>
+    <input type="text" class="form-control" placeholder="Email" name="email" aria-describedby="basic-addon1" required>
+    <textarea class="form-control" name="message" placeholder="Message" style="resize:none" required></textarea>
+    <button class="btn btn-primary" type="submit">Submit</button> 
+  </form>
+</div>
+
