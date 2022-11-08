@@ -10,13 +10,12 @@
 		<h1>I'm Gonzalo</h1>
 		<h1>I'm a developer</h1>
 		<p>I build dynamic Python apps using relational databases!</p>
-		<a href="#contact" class="btn btn-outline-light">Contact me</a>
+		<a href="#projects" class="btn btn-outline-light">Projects</a>
 	</div>
 	<div class="right">
-		<img src="{{ url_for('static', filename='backwall.png') }}" width=600px class=2img-fluid"/>
+		<img src="{{ url_for('static', filename='backwall.png') }}" alt="code-pic" class="2img-fluid res"/>
 	</div>
 </div>
-{% include 'portfolio/section-first.html' %}
 {% include 'portfolio/section-second.html' %}
 {% include 'portfolio/contact.html' %}
 {% endblock %}

@@ -1,183 +1,314 @@
 .nav-link {
-	color: white;
+        color: white;
 }
 
 .nav-link:hover {
-	color: rgba(162, 162, 162, 0.8);
+        color: rgba(162, 162, 162, 0.8);
+}
+
+.right {
+	display: none;
+}
+
+.c2 h3 {
+	color: white;
+	text-align: center;
+	padding: 0 2% 2% 2%;
+}
+
+.row2 {
+        display: flex;
+        justify-content: space-around;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 2%;
+        padding-bottom: 5%;
+}
+
+section {
+	height: 33%;
 }
 
 .logb {
 	border-radius: 10px;
-	margin-right: 5px;
-}
-
-.hero {
-	padding-top: 3%;
-	padding-left: 1%;
-	padding-bottom: 40%;
-	color: white;
-	background-color: rgba(30, 30, 30, 1);
-	font-family: "Verdana", sans-serif;
+        margin-right: 5px;
 }
 
 .left {
-	margin-left: 13%;
-	margin-top: 8%;
-	float: left;
+	padding: 10% 3% 10% 3%;
 	text-align: center;
 }
 
 .left h1 {
-	font-weight: bold;
-	font-size: 50px;
-	padding-bottom: 1%;
+        font-weight: bold;
+        font-size: 50px;
+        padding-bottom: 3%;
 }
 
 .left p {
-	font-family: "Monaco", monospace;
-	padding-bottom: 1%;
+	padding-top: 2%;
+        font-family: "Monaco", monospace;
+        padding-bottom: 1%;
 }
 
-.right {
-	margin-right: 15%;
-	float: right;
+.hero {
+        padding-top: 3%;
+        padding-bottom: 4%;
+        color: white;
+        background-color: rgba(30, 30, 30, 1);
+	font-family: "Verdana", sans-serif;
+	height: 33%;
 }
 
 .center {
+	height: 33%;
 	display: flex;
-	justify-content: center;
-	color: white;
-	background-color: rgba(33, 33, 33, 1);
+	padding: 8% 2% 8% 2%;
+        justify-content: center;
+        color: white;
+        background-color: rgba(33, 33, 33, 1);
 }
 
 .content {
 	height: 20%;
-	margin-top: 5%;
-	width: 100%;
-	text-align: center;
+        margin-top: 5%;
+        width: 100%;
+        text-align: center;
 }
 
 .content h1 {
-	font-weight: bold;
-	font-family: "Lucida Console", Monospace;
-	padding-bottom: 1%;
+        font-weight: bold;
+        font-family: "Lucida Console", Monospace;
+	padding: 4% 2% 4% 2%;
 }
 
 .content p {
-	font-family: "Verdana", sans-serif;
+        font-family: "Verdana", sans-serif;
+	padding: 4% 2% 4% 2%;
 }
 
 a {
-	text-decoration: none;
-	font-weight: bold;
+        text-decoration: none;
+        font-weight: bold;
 }
 
 .row {
-	display: flex;
-	flex-direction: row;
-	text-decoration: none;
-	font-weight: bold;
-	margin-left: 15%;
-	padding-bottom: 1%;
-}
-
-.card {
-	background-color: #fff;
-	border: solid 1px #ddd;
-	border-radius: 5px;
-	box-shadow: 0 1px 2px #ddd;
-	padding: 20px 30px;
+	padding: 3%;
 }
 
 .third {
-	width: 25%;
-	margin: 2%;
-	color: rgba(29, 29, 29, 0.9);
-	font-family: "Helvetica", sans-serif;
+	margin-bottom: 5%;
+	color: black;
+	background-color: rgba(255, 255, 255, 0.83);
 }
 
 .third h3 {
-	font-size: 20px;
-	font-weight: bold;
+	padding-top: 2%;
+}
+
+.third a {
+	padding-bottom: 1%;
+}
+
+.third h6 {
+	padding-top: 5%;
 }
 
 .third p {
-	font-size: 15px;
-	font-weight: normal;
+	font-size: 12px;
+	padding: 2% 0% 3% 0%;
+	margin: 0;
+	color: rgba(0, 0, 0, 0.7);
 }
 
-.htl {
-	padding-top: 10%;
-	padding-bottom: 7%;
+.center h1, .center h3 {
+	text-align: center;
+	font-family: "Monaco", monospace;
+	padding: 2% 2% 0 2%;
 }
 
 .center input {
-	margin-bottom: 10%;
-	width: 200%;
+        margin-bottom: 10%;
+        width: 100%;
 }
 
 .center textarea {
-	margin-bottom: 10%;
-	width: 200%;
-	height: 50%;
+        margin-bottom: 10%;
+        width: 100%;
+        height: 50%;
 }
 
 .cformat {
-	margin-left: -15%;
-	padding-bottom:10%;
+        padding-bottom: 15%;
 }
 
 .cformat button {
-	margin-left: 60%;
-	width: 80%;
-}
-
-.contact {
-	background-color: rgba(42, 45, 45, 1);
-}
-
-.full-width {
-	width: 100%;
-}
-
-.row2 {
-	display: flex;
-	justify-content: space-around;
-	padding-left: 25%;
-	padding-right: 25%;
-	padding-top: 2%;
-	padding-bottom: 5%;
-}
-
-.social {
-	background-color: white;
-	border-radius: 15px;
-	padding: 10px;
-}
-
-.footer h3{
-	padding: 2%;
+        width: 100%;
+	margin-bottom: 10%;
 }
 
 body {
-	background-color: rgba(30, 30, 30, 1);
+        background-color: rgba(30, 30, 30, 1);
 }
 
-.social:hover {
-	padding: 15px;
+.third h6 {
+	padding-top: 0;
 }
 
-.footer h3 {
-	font-size: 15px;
-	font-weight: bold;
-	font-family: Monospace;
+.social {
+        background-color: white;
+        border-radius: 15px;
+        padding: 10px;
+	margin: 10px;
+}
+
+.ft {
+	padding-bottom: 0;
 }
 
 .pic {
-	width: 60%;
+	width: 50%;
+	margin-left: 25%;
 }
 
-.hero-content {
-	margin-top: -7%;
-	padding-bottom: 5%;
+.bp {
+	height: 100%;
+	padding-bottom: 10%;
+}
+
+.footer {
+	background-color: rgba(27, 27, 27, 1);
+}
+
+.contact {
+	background-color: rgba(35, 35, 35, 1);
+}
+@media (min-width:1155px)
+{
+	.left {
+		margin-left: 13%;
+		margin-top: 7%;
+		padding-top: 0;
+		padding-bottom: 0;
+		float: left;
+	}
+	
+	.right {
+		display: inline;
+	}
+	
+	.row {
+		display: flex;
+		flex-direction: row;
+		text-decoration: none;
+		font-weight: bold;
+		margin-left: 15%;
+		padding-bottom: 1%;
+	}
+	
+	.card {
+		background-color: #fff;
+		border: solid 1px #ddd;
+		border-radius: 5px;
+		box-shadow: 0 1px 2px #ddd;
+		padding: 20px 30px;
+	}
+
+	.content {
+		margin-top: 0;
+	}
+	
+	.third {
+		width: 25%;
+		margin: 2%;
+		color: rgba(29, 29, 29, 0.9);
+		font-family: "Helvetica", sans-serif;
+	}
+	
+	.third h3 {
+		font-size: 20px;
+		font-weight: bold;
+	}
+	
+	.third p {
+		font-size: 15px;
+		font-weight: normal;
+	}
+	
+	.htl {
+		padding-top: 10%;
+		padding-bottom: 0;
+		width: 100%;
+	}
+	
+	.row2 {
+		display: flex;
+		justify-content: space-around;
+		padding-left: 25%;
+		padding-right: 25%;
+		padding-top: 2%;
+		padding-bottom: 5%;
+	}
+	
+	.footer h3{
+		padding: 2%;
+	}
+	
+	.social:hover {
+		padding: 15px;
+	}
+	
+	.footer h3 {
+		font-size: 15px;
+		font-weight: bold;
+		font-family: Monospace;
+	}
+	
+	.pic {
+		width: 30%;
+		margin-top: 2%;
+		margin-left: 35%;
+		margin-right: 35%;
+	}
+	
+	.hero-content {
+		margin-top: -7%;
+		padding-bottom: 5%;
+	}
+	.center input {
+                margin-bottom: 10%;
+                width: 200%;
+        }
+
+        .center textarea {
+                margin-bottom: 10%;
+                width: 200%;
+                height: 50%;
+        }
+
+        .cformat {
+                margin-left: -15%;
+                padding-bottom:10%;
+        }
+
+        .cformat button {
+                margin-left: 60%;
+                width: 80%;
+        }
+
+	.center {
+		float: left;
+	}
+
+	.footer {
+       		margin-bottom: -30%;
+       		width: 100%;
+       		height: 30%;
+	}
+
+	.res {
+		width: 35%;
+		height: auto;
+	}
+
 }
